@@ -1,0 +1,7 @@
+
+ p {border:10px rgb(125,0,125) solid;}
+ #par1  {position:absolute;left:50px;top:50px;}
+  #par2  {position:absolute;left:50px;top:100px;}
+#img1{position:absolute;left:200px;top:200px;border:10px rgb(200,100,0) dashed;
+width:300px;height:200px;transform:rotate(45deg);}
+#but1{position:absolute;left:20px;top:500px;}
