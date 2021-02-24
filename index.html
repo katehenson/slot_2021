@@ -1,10 +1,69 @@
 <!DOCTYPE html>
 <html>
 <head>
-<a href="demo_9.2(2).html">to demo9.2</a>
-<a href="demoPart2.html">to demoPart2</a>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	
+    <title>Slot_2021</title>
+
+    <script src="sketch.js"></script>
+    <script src="logo.js"></script>
+    <script src="stuff.js"></script>
+    <script src="line.js"></script>  
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body>
-<p> the connector!</p>
+  
+  <body id="bod1">
+<div id="div">       The Slot Machine Game
+  <div id="div1"> Window 1
+  <img id="img11" src="blue.jpg" width="150" height="200">
+  <img id="img12" src="red.jpg" width="0" height="0">
+  <img id="img13" src="yellow.jpg" width="0" height="0">
+  <img id="img14" src="white.jpg" width="0" height="0">
+  </div>
+  
+  <div id="div2"> Window 2
+  <img id="img21" src="blue.jpg" width="150" height="200">
+  <img id="img22" src="red.jpg" width="0" height="0">
+  <img id="img23" src="yellow.jpg" width="0" height="0">
+  <img id="img24" src="white.jpg" width="0" height="0">
+  </div>
+  
+  <div id="div3"> Window 3
+  <img id="img31" src="blue.jpg" width="150" height="200">
+  <img id="img32" src="red.jpg" width="0" height="0">
+  <img id="img33" src="yellow.jpg" width="0" height="0">
+  <img id="img34" src="white.jpg" width="0" height="0">
+  </div>
+  <p id="testNum" width="50">number is</p>
+</div>  
+   <input type="button" id="play" value="Hit to Play" onclick="play()">
+
+
+
 </body>
+
+<script>
+  //document.getElementById("inp1").addEventListener("keyup", //func2);
+let cell=[];
+for(let j=1;j<5;j++){cell[j]=[];}
+
+let pic11=document.getElementById("img11");
+let pic12=document.getElementById("img12");
+let pic13=document.getElementById("img13");
+let pic14=document.getElementById("img14");
+
+let pic21=document.getElementById("img21");
+let pic22=document.getElementById("img22");
+let pic23=document.getElementById("img23");
+let pic24=document.getElementById("img24");
+
+let pic31=document.getElementById("img31");
+let pic32=document.getElementById("img32");
+let pic33=document.getElementById("img33");
+let pic34=document.getElementById("img34"); 
+</script>
+ 
+
 </html>
